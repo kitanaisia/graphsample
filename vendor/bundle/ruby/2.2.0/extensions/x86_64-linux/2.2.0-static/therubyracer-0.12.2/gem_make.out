@@ -1,0 +1,39 @@
+/home/sia/.rbenv/versions/2.2.2/bin/ruby -r ./siteconf20160222-2839-92cnut.rb extconf.rb
+checking for main() in -lpthread... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling trycatch.cc
+compiling primitive.cc
+compiling context.cc
+compiling constraints.cc
+compiling value.cc
+compiling backref.cc
+compiling heap.cc
+compiling init.cc
+compiling stack.cc
+compiling locker.cc
+compiling signature.cc
+compiling string.cc
+compiling exception.cc
+compiling template.cc
+compiling external.cc
+compiling handles.cc
+compiling accessor.cc
+compiling gc.cc
+compiling array.cc
+compiling script.cc
+compiling invocation.cc
+compiling object.cc
+compiling function.cc
+compiling message.cc
+compiling v8.cc
+compiling rr.cc
+compiling date.cc
+compiling constants.cc
+linking shared-object v8/init.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 init.so ./.gem.20160222-2839-ejumva/v8
