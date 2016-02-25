@@ -1,0 +1,5 @@
+pplications:
+    - name: graphsample2
+      command: bundle exec rake db:migrate
+      services:
+          - mysql-rails
